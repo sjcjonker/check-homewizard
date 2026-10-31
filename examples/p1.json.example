@@ -1,0 +1,10 @@
+{
+  "address": "192.0.2.10",
+  "api": 2,
+  "kind": "p1",
+  "state_dir": "/run/nagios/homewizard",
+  "timezone": "Europe/Amsterdam",
+  "serial": "REPLACE_WITH_DEVICE_SERIAL",
+  "token": "",
+  "ca_file": "/etc/nagios4/private/homewizard/homewizard-ca.pem"
+}

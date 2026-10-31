@@ -1,0 +1,7 @@
+{
+  "address": "192.0.2.11",
+  "api": 1,
+  "kind": "water",
+  "state_dir": "/run/nagios/homewizard",
+  "timezone": "Europe/Amsterdam"
+}

@@ -1,4 +1,9 @@
 #!/usr/bin/env python3
+# Monitor HomeWizard meter health, readings, phases and usage windows.
+# Author: Stijn Jonker (sjcjonker) | https://github.com/sjcjonker
+# Usage: python3 check_homewizard.py --config /private/p1.json --check health
+# Default check: health; timeout: 5s. Keep paired tokens private. Help: --help.
+# Nagios exit codes: 0 OK, 1 WARNING, 2 CRITICAL, 3 UNKNOWN.
 """HomeWizard Nagios checks. Python 3.9+, standard library only."""
 
 import argparse
